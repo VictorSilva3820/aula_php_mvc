@@ -1,0 +1,19 @@
+{
+    "name": "webdesign/mvc",
+    "description": "Mvc Completo.",
+    "authors": [
+        {
+            "name": "Victor Gabriel",
+            "email": "vcitorsilva23@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"../app/",
+            "Src\\":"../src/"
+        }
+    }
+}
