@@ -17,7 +17,8 @@
             $this->Rota=array(
                 ""=>"ControllerHome",
                 "home"=>"ControllerHome",
-                "sitemap"=>"ControllerSitemap"
+                "sitemap"=>"ControllerSitemap",
+                "carro"=>"ControllerCarros"
             );
 
             if(array_key_exists($I,$this->Rota)){
@@ -28,7 +29,7 @@
                     return "ControllerHome";
                 }
             }else{
-                return "ControllerHome";
+                return "Controller404";
             }
         }
     }
